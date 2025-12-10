@@ -4,15 +4,6 @@
 
 
 ---
-## Screenshots / GIF
-
-![1 summary](https://github.com/user-attachments/assets/7e287e2c-6df2-4937-9a1a-2be20c596ca7)
-
-![2 deatiled and brief (1)](https://github.com/user-attachments/assets/7d77bc34-49ac-4cb7-99a7-b63c8940d1d2)
-
-![history](https://github.com/user-attachments/assets/ec629648-7c83-4d13-a677-4c1d2b789bd7)
-
----
 
 
 Summarizer is a compact, practical Chrome extension that extracts article text from the current tab, sends it to an AI backend to produce concise summaries, and stores a short history of recent summaries (page title + date/time + text). It includes a dark/light mode toggle, rounded modern UI, and export/copy conveniences — built to be resume-ready and deployable as a web demo.
@@ -24,6 +15,7 @@ Summarizer is a compact, practical Chrome extension that extracts article text f
 * Summarize any webpage into two modes (customizable): **Quick View** / **Detailed** .
 * Save the last 10 summaries to a local history (stores `title`, `date/time`, `summary`).
 * Dark / Light mode with persistent preference and an icon that toggles (🌙 / ☀️).
+
 * Copy summary to clipboard; download as `.txt` .
 * Minimal, responsive UI with modern rounded buttons and subtle animations.
 * Manifest V3 compatible (background service worker, content script message passing).
@@ -81,7 +73,7 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 ```json
 {
   "title": "<tab.title>",
-  "date": "2025-08-12 10:23:00",
+  "date": "2025-12-10 10:23:00",
   "type": "Pulse",
   "summary": "…"
 }
@@ -130,6 +122,5 @@ PRs welcome. Suggested starter tasks:
 
 ## Contact
 
-Developer: **ANMOL SINGH RANA**
-GitHub: `https://github.com/Anmol-Repo`
+Developer: **Siddharth Jagwan**
 
